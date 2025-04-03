@@ -1,0 +1,105 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/gettingstarted"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToOutline="true"
+    android:background="#EDEDED">
+
+
+    <View
+        android:id="@+id/background"
+        android:layout_width="688.88dp"
+        android:layout_height="595.24dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="-7dp"
+        android:layout_marginTop="410dp"
+        android:background="@drawable/background1" />
+
+    <TextView
+        android:id="@+id/get_started"
+        android:layout_width="wrap_content"
+        android:layout_height="62dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/baloo_bhaijaan_2"
+        android:gravity="center_vertical"
+        android:lineHeight="94sp"
+        android:text="Get Started"
+        android:textAppearance="@style/get_started" />
+    <!--
+    Font family: Baloo Bhaijaan 2
+    Line height: 94sp
+    -->
+
+    <!-- styles.xml -->
+
+
+
+    <TextView
+        android:layout_width="249dp"
+        android:layout_height="44dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="165dp"
+        android:fontFamily="@font/baloo_bhaijaan_2"
+        android:gravity="top"
+        android:lineHeight="34sp"
+        android:text="Start by Sign up or Sign in"
+        android:textAppearance="@style/start_by_si" />
+    <!--
+    Font family: Baloo Bhaijaan 2
+    Line height: 34sp
+    -->
+
+
+    <View
+        android:layout_width="341dp"
+        android:layout_height="168dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="35dp"
+        android:layout_marginTop="206dp"
+        android:background="@drawable/payswift_logo" />
+
+    <Button
+        android:id="@+id/signupbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="194dp"
+        android:background="@drawable/round_corners"
+        android:fontFamily="@font/baloo_bhaijaan_2"
+        android:text="Sign Up"
+        android:textSize="23sp" />
+
+    <Button
+        android:id="@+id/signinbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="62dp"
+        android:layout_marginBottom="108dp"
+        android:background="@drawable/round_corners"
+        android:fontFamily="@font/baloo_bhaijaan_2"
+        android:text="Sign In"
+        android:textSize="23sp" />
+
+
+</RelativeLayout>
+
