@@ -12,7 +12,12 @@
           "package_name": "com.example.schoolmanagement"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "527526420484-0e9ksgt8037205vkdginl9j5549fi6dr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyDUVkeFg24KDqhdrS8bDFez_CSYGc30a9w"
@@ -20,7 +25,12 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "527526420484-0e9ksgt8037205vkdginl9j5549fi6dr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
         }
       }
     }

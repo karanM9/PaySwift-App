@@ -13,17 +13,21 @@ class GettingStartedActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         enableEdgeToEdge()
         setContentView(R.layout.activity_getting_started)
+
         val signupbutton = findViewById<Button>(R.id.signupbutton)
+        val signinbutton = findViewById<Button>(R.id.signinbutton)
+
+        signinbutton.setOnClickListener {
+            startActivity(Intent(this, LoginActivity::class.java))
+        }
 
         signupbutton.setOnClickListener {
-            startActivity(Intent(this, LoginActivity::class.java))
-            finish()
-
+            startActivity(Intent(this, SignUpActivity::class.java))
+        }
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.gettingstarted)) { v, insets ->
             val systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars())
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom)
             insets
         }
     }
-}
 }

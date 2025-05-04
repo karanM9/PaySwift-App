@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- drawable/profilephot.xml -->
+<vector
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    android:width="98dp"
+    android:height="98dp"
+    android:viewportWidth="98"
+    android:viewportHeight="98"
+    >
+    <group>
+        <clip-path
+            android:pathData="M49 4C73.8528 4 94 24.1472 94 49C94 73.8528 73.8528 94 49 94C24.1472 94 4 73.8528 4 49C4 24.1472 24.1472 4 49 4Z"
+            />
+        <path
+            android:pathData="M4 4V94H94V4"
+            android:fillColor="#8BBFF8"
+            />
+    </group>
+    <group>
+        <clip-path
+            android:pathData="M0 0V98H98V0M49 4C73.8528 4 94 24.1472 94 49C94 73.8528 73.8528 94 49 94C24.1472 94 4 73.8528 4 49C4 24.1472 24.1472 4 49 4Z"
+            />
+        <path
+            android:pathData="M49 4C73.8528 4 94 24.1472 94 49C94 73.8528 73.8528 94 49 94C24.1472 94 4 73.8528 4 49C4 24.1472 24.1472 4 49 4Z"
+            android:strokeWidth="8"
+            android:strokeColor="#000000"
+            />
+    </group>
+</vector>

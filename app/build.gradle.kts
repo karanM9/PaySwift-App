@@ -62,7 +62,8 @@ dependencies {
     androidTestImplementation(libs.androidx.ui.test.junit4)
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
-    implementation("com.google.firebase:firebase-auth:21.1.0")
-    implementation("com.google.firebase:firebase-firestore:24.0.0")
+    implementation(libs.firebase.auth)
+    implementation(libs.firebase.firestore)
+    implementation (libs.androidx.appcompat.v161)
 
 }
